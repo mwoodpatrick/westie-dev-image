@@ -13,6 +13,9 @@ A **development container** is a running [Docker](https://www.docker.com) contai
 
 This repository contains a set of **dev container images** which are Docker images built with [dev container features](https://github.com/devcontainers/features).
 
+This arch branch contains arch-linux versions of some of the containers as a learning experiment. If you have 
+suggestions for improvements or any questions, please let me know.
+
 ## Contents
  
 - [`src`](src) - Contains reusable dev container images.

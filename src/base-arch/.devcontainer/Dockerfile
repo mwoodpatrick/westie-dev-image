@@ -1,6 +1,6 @@
 # [Choice] Ubuntu version (use jammy on local arm64/Apple Silicon): jammy, focal
-ARG VARIANT="jammy"
-FROM buildpack-deps:${VARIANT}-curl
+ARG VARIANT="base-20230723.0.166908"
+FROM archlinux:${VARIANT}
 
 LABEL dev.containers.features="common"
 
